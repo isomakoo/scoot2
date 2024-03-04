@@ -1,0 +1,344 @@
+/* space-mono-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* space-mono-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/space-mono-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+.container{
+    width: 1106px;
+    margin: 0 auto;
+    padding: 0;
+}
+.button{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    color: #FFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: calc(0.8s);  
+}
+button:hover{
+    background-color: #FFFF;
+    color: black;
+    border: 1px solid black;
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 95px;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+}
+.navbar_list{
+    display: flex;
+    list-style: none;
+    width: 429px;
+    justify-content: space-between;
+}
+.header_button{
+    position: relative;
+    width: 180px;
+    height: 53px;
+    top: 21px;
+    left: 380px;
+}
+/* -------------------------------------------------------------------HERO------------------------------------------- */
+.hero{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/Bitmap\ \(2\).png");
+    position: relative; 
+}
+.hero_card{
+    position: absolute;
+    font-family: Space Mono;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    width: 162px;
+    height: 56px;
+    top: 40px;
+    color: #FFFF;        
+}
+/* ------------------------------------------------------------MAIN------------------------------------------ */
+.main{
+    width: 100%;
+    height: 1200px;
+    margin: 0;padding: 0;
+    position: relative;
+}
+.main__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_item{
+    width: 445px;
+    height: 96px;
+    top: 541px;
+    left: 165px;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color: #495567;
+}
+.main_card{
+    width: 445px;
+    height: 75px;
+    top: 661px;
+    left: 165px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #495567;    
+}
+.main_img{
+    position: relative;
+    border-radius: 50%;
+    width: 445px;
+    height: 445px;
+    left: 120px;
+    top: 150px;
+}
+.main_images{
+    position: relative;
+    left: -420px;
+    top: 150px;
+}
+.main_imag{
+    position: relative;
+    border-radius: 50%;
+    width: 445px;
+    height: 445px;
+    top: 200px;
+}
+.main_imges{
+    position: relative;
+    left: -500px;
+    top: 60px;
+}
+.main_navbar_list{
+    position: relative;
+    left: -100px;
+    top: 200px;
+}
+.main_navbar{
+    position: relative;
+    top: 150px;
+}
+/* --------------------------------------------------------------------------service--------------------------------------------- */
+.service{
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.service-card{
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+    color: #495567; 
+}
+.service_navbar_list{
+    margin-top: 100px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.navbar_item{
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+    color: #495567;
+    width: 350px;
+    height: 28px;
+    top: 2024px;
+    left: 165px;
+}
+.navbar_card{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 350px;
+    height: 75px;
+    top: 2079px;
+    left: 165px;
+    color: #495567; 
+}
+.service_button{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: #FCB72B;
+    position: relative;
+    top: -70px;
+    left: 80px;
+    cursor: pointer;
+    transition: calc(0.8s);
+    border: transparent;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;   
+}
+.service-box{
+    border-radius: 5px;
+    position: relative;
+    width: 730px;
+    height: 191px;
+    top: -80px;
+    left: 545px;
+    background: #F2F5F9;
+}
+.service-box-item{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    width: 356px;
+    height: 28px;
+    color: #495567;     
+}
+.service-box-card{
+    position: relative;
+    width: 650px;
+    height: 75px;
+    top: 15px;
+    left: 30px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #495567;    
+}
+.service-item{
+    width: 350px;
+    height: 48px;
+    top: 2386px;
+    left: 165px;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.7857142686843872px;
+    text-align: left;
+    color: #495567;    
+}
+.service-box2{
+    border-radius: 5px;
+    position: relative;
+    width: 730px;
+    height: 92px;
+    left: 545px;
+    background: #F2F5F9;
+    top: -90px;
+}
+/* ------------------------------------------------------------------foother----------------------------------------------------- */
+.foother{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/Mask\ \(8\).png");
+}
+.foother_card{
+    position: relative;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    width: 415px;
+    height: 96px;
+    top: 106px;
+    left: 15px;
+    color: #FFFFFF;    
+}
+.foother_link{
+    position: relative;
+    left: 800px;
+    top: -56px;
+}
+/* -------------------------------------------------------------------section---------------------------------------------------- */
+.section{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 96px;
+    background: #333A44;
+}
+.section__container{
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+.section_link{
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;    
+    color: #FFFFFF;
+}
+.section_link:hover{
+    color: #FCB72B;
+}
+.section_linkk{
+    position: relative;
+    left: 400px;
+    margin-left: 20px;
+}
